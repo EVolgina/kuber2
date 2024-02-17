@@ -59,7 +59,7 @@ Request Headers:
 Request Body:
         -no body in request-
 '''
-![http]()
+![http](https://github.com/EVolgina/kuber2/blob/main/Снимок11.PNG)
 ## Задание 2. Создать Service и подключить его к Pod
 - Создать Pod с именем netology-web.
 - Использовать image — gcr.io/kubernetes-e2e-test-images/echoserver:2.2.
