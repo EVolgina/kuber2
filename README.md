@@ -66,7 +66,7 @@ Request Body:
 - Создать Service с именем netology-svc и подключить к netology-web.
 - Подключиться локально к Service с помощью kubectl port-forward и вывести значение (curl или в браузере).
 '''
-devops@WORKBOOK:/mnt/c/kube/kuber-homeworks/1.2$ sudo nano netology-web-pod.yaml [web.yml]()
+devops@WORKBOOK:/mnt/c/kube/kuber-homeworks/1.2$ sudo nano netology-web-pod.yaml [web.yml](https://github.com/EVolgina/kuber2/blob/main/netology-web-pod)
 devops@WORKBOOK:/mnt/c/kube/kuber-homeworks/1.2$ kubectl apply -f netology-web-pod.yaml
 pod/netology-web created
 devops@WORKBOOK:/mnt/c/kube/kuber-homeworks/1.2$ sudo nano netology-svc.yaml [svc.yml]
