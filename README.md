@@ -58,11 +58,13 @@ Request Body:
 - Использовать image — gcr.io/kubernetes-e2e-test-images/echoserver:2.2.
 - Создать Service с именем netology-svc и подключить к netology-web.
 - Подключиться локально к Service с помощью kubectl port-forward и вывести значение (curl или в браузере).
+- [web.yml](https://github.com/EVolgina/kuber2/blob/main/netology-web-pod)
+- [svc.yml](https://github.com/EVolgina/kuber2/blob/main/netology-svc)
 ```
-devops@WORKBOOK:/mnt/c/kube/kuber-homeworks/1.2$ sudo nano netology-web-pod.yaml [web.yml](https://github.com/EVolgina/kuber2/blob/main/netology-web-pod)
+devops@WORKBOOK:/mnt/c/kube/kuber-homeworks/1.2$ sudo nano netology-web-pod.yaml 
 devops@WORKBOOK:/mnt/c/kube/kuber-homeworks/1.2$ kubectl apply -f netology-web-pod.yaml
 pod/netology-web created
-devops@WORKBOOK:/mnt/c/kube/kuber-homeworks/1.2$ sudo nano netology-svc.yaml [svc.yml](https://github.com/EVolgina/kuber2/blob/main/netology-svc)
+devops@WORKBOOK:/mnt/c/kube/kuber-homeworks/1.2$ sudo nano netology-svc.yaml 
 devops@WORKBOOK:/mnt/c/kube/kuber-homeworks/1.2$ kubectl apply -f netology-svc.yaml
 service/netology-svc created
 devops@WORKBOOK:/mnt/c/kube/kuber-homeworks/1.2$ kubectl get pods
