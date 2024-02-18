@@ -75,4 +75,4 @@ devops@kube:~$ microk8s kubectl get svc netology-svc
 NAME           TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)   AGE
 netology-svc   ClusterIP   10.152.183.97   <none>        80/TCP    57m
 ```
-![http2](https://github.com/EVolgina/kuber2/blob/main/1702.PNG)
+![http2](https://github.com/EVolgina/kuber2/blob/main/portf.PNG)
